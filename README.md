@@ -42,7 +42,7 @@ COVID-19로 인해 실내 운동이 제한됨에 따라 도심과 인접한 산�
 - 파일 설명
 
 
-Platform: Android
+> Platform: Android
 Server Framework: SpringBoot 2.4.4
 Web server: Nginx
 WAS: Django 3.1.7
