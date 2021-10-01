@@ -1,6 +1,6 @@
 # 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
 <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif" width = 100></p>
-
+<img src="https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif" width = 200>
 ![KakaoTalk_20211001_235310121_01](https://user-images.githubusercontent.com/75845861/135642455-4e3b991e-af49-438a-b56f-6501be9fcb11.gif)
 ![KakaoTalk_20211001_235310121_02](https://user-images.githubusercontent.com/75845861/135642473-43ac9aec-c98c-4715-87b8-5f27c91d987c.gif)
 ![KakaoTalk_20211001_235310121_06](https://user-images.githubusercontent.com/75845861/135642502-8036469b-3fd1-4870-b0da-c6e2942de916.gif)
