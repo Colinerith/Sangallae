@@ -1,4 +1,4 @@
-# <img src="https://user-images.githubusercontent.com/75845861/135643497-755b193f-117c-4187-9cc3-e3a597d6bd24.png" width = 20> 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
+# <img src="https://user-images.githubusercontent.com/75845861/135643497-755b193f-117c-4187-9cc3-e3a597d6bd24.png" width = 50> 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
 
 
 
