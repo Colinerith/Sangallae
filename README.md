@@ -219,7 +219,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
     
     
 5) **마이페이지**  
-  <img src="https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif" width = 180><p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608225-6b304a26-868c-4ad6-8af9-2ea09845a1be.png"></p>  
+  <img src="https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif" width = 200><p><img src="https://user-images.githubusercontent.com/75845861/135608225-6b304a26-868c-4ad6-8af9-2ea09845a1be.png"></p>  
     
 - 프로필 설정    
  연필 아이콘을 클릭하면 유저가 직접 닉네임, 키 몸무게를 변경할 수 있다. 확인 버튼을 누르면 textview의 내용이 서버로 전달되어 데이터베이스의 user 테이블에 저장된 유저의 닉네임, 키, 몸무게를 업데이트한다. 키, 몸무게는 등산 측정 시 소모한 칼로리 계산에 이용된다.  
