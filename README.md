@@ -243,9 +243,6 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
  Query: none  
 
 
-## 파일 설명
-
-
 #
 > Platform: Android  
 Server Framework: SpringBoot 2.4.4  
