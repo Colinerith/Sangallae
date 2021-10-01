@@ -111,9 +111,8 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   Request URI: /course/main  
   Http Protocol: GET  
   Query: latitude, longitude  
-
-  <img src="https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif" width = 180>
-  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607028-604575a9-b01a-4bee-9ba4-3af16b9465e5.png"></p>  
+  
+  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif" height = 500><img src="https://user-images.githubusercontent.com/75845861/135607028-604575a9-b01a-4bee-9ba4-3af16b9465e5.png" height = 500></p>  
 
   - 맞춤 등산로  
     서버에 저장된 등산로들 중 유저의 등산 기록에 해당하는 GPX 메타 데이터와 유사한 순으로 추천한다.
@@ -125,9 +124,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
     유저가 홈 화면에 진입할 때마다 현재 위도, 경도 값을 받아 서버에 전달하면 서버는 위도, 경도차가 작은 순으로 등산로 목록을 반환한다. 가까운 산 목록은 메인 홈 화면에서만 제공하고 더보기 목록은 제공하지 않는다. 유저의 위치 기준 50km 이내에 위치한 산의 사진과 이름을 보여준다. 이 기능을 사용하기 위해 GPS 권한이 필요하다.
 
 
-<img src="https://user-images.githubusercontent.com/75845861/135642455-4e3b991e-af49-438a-b56f-6501be9fcb11.gif" width = 180>
-<img src="https://user-images.githubusercontent.com/75845861/135642473-43ac9aec-c98c-4715-87b8-5f27c91d987c.gif" width = 180>
-  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607078-3b6a2172-abff-4bae-a2fd-8a964a6939de.png"></p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135642455-4e3b991e-af49-438a-b56f-6501be9fcb11.gif" height = 500><img src="https://user-images.githubusercontent.com/75845861/135642473-43ac9aec-c98c-4715-87b8-5f27c91d987c.gif" height = 500><img src="https://user-images.githubusercontent.com/75845861/135607078-3b6a2172-abff-4bae-a2fd-8a964a6939de.png" height = 500></p>
 
   - 더보기  
     맞춤 등산로, 인기 등산로, 인기 산 목록은 더보기를 클릭하면 리스트뷰 형태로 더 많은 목록들을 제공한다. 썸네일과 함께 등산로/산 이름, 거리, 고도차, 시간, 난이도 정보를 표시한다. 더보기 목록 화면에서 아래로 스크롤하게 되면 페이징 처리되어 20개씩 계속 서버에서 목록들을 불러와 보여준다.
@@ -153,8 +150,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   
   
 2) **검색**   
-<img src="https://user-images.githubusercontent.com/75845861/135642502-8036469b-3fd1-4870-b0da-c6e2942de916.gif" width = 180>
-  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607406-77d5f9f1-cbd4-4f35-a4d6-56c39373c79f.png"></p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135642502-8036469b-3fd1-4870-b0da-c6e2942de916.gif" height = 500><img src="https://user-images.githubusercontent.com/75845861/135607406-77d5f9f1-cbd4-4f35-a4d6-56c39373c79f.png" height = 500></p>
 
  앱 상단의 돋보기 아이콘을 클릭하면 등산로 키워드 검색 기능을 사용할 수 있다. 등산로명, 산 이름, 지역명등 등산로에 관련된 키워드로 검색하면 해당 키워드와 관련된 등산로 목록을 서버에서 검색해 결과를 보여준다. 마찬가지로 아래로 스크롤하면 페이징 처리되어 20개씩 목록을 업데이트한다. 아이템을 클릭하면 해당 등산로 상세 페이지로 전환된다.
    
