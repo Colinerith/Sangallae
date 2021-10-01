@@ -1,4 +1,13 @@
 # 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
+![image](https://user-images.githubusercontent.com/75845861/135641345-96340f66-73e9-4bcf-b9f3-0f8c4b753416.png)
+![image](https://user-images.githubusercontent.com/75845861/135641380-bcffb754-e0f4-4870-beb9-ab1c73697808.png)
+![image](https://user-images.githubusercontent.com/75845861/135641390-53c44bbb-54dc-4c71-a432-baae90885e38.png)
+![image](https://user-images.githubusercontent.com/75845861/135641452-8f1366a7-fcec-4366-bd47-018e76dc91e2.png)
+![image](https://user-images.githubusercontent.com/75845861/135641417-d888517b-fc91-43cf-bccf-74a875bdbe02.png)
+![image](https://user-images.githubusercontent.com/75845861/135641400-d438e0f0-209a-4f6f-ba32-bdbba9c50069.png)
+![image](https://user-images.githubusercontent.com/75845861/135641466-6a02cffe-d9ac-4ef5-9aea-2cbb5c121745.png)
+
+
 ## 개요
  ### 1. 주제 선정 배경  
  COVID-19로 인해 실내 운동이 제한됨에 따라 도심과 인접한 산을 찾는 등산객들의 수가 증가하고 있다. 초보 등산객들의 경우, 길을 잘못 들거나 등산로의 난이도를 잘 모르고 가벼운 차림으로 등산을 하다가 사고가 발생하는 경우가 많다. 또한 자신에게 맞는 수준의 등산로 정보를 구하기가 어렵다. 본 프로그램은 유저들에게 맞춤형으로 등산로를 추천하고 본인의 등산 데이터를 관리할 수 있는 서비스를 제공해주는 어플리케이션을 개발해 보다 더 안전하고 즐겁게 등산을 즐길 수 있도록 주제를 선정했다.
