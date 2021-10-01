@@ -147,7 +147,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   Query: page  
 
   
-  
+  #
   
 2) **검색**   
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135642502-8036469b-3fd1-4870-b0da-c6e2942de916.gif" height = 500><img src="https://user-images.githubusercontent.com/75845861/135607406-77d5f9f1-cbd4-4f35-a4d6-56c39373c79f.png" height = 500></p>
@@ -159,7 +159,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   Http Protocol: GET  
   Query: keyword, page  
 
-  
+  #
     
     
 3) **찜**  
@@ -181,7 +181,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   Http Protocol: GET  
   Path: course id  
 
-  
+  #
   
 4) **지도**  
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135642525-5a455329-024f-44f3-984e-4ca120882b7b.gif" height = 500><img src="https://user-images.githubusercontent.com/75845861/135607776-04b192c7-34bc-4c1d-9360-3a1593b970f3.png" height = 500></p>
