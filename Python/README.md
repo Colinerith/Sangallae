@@ -1,0 +1,4 @@
+- sample gpx 폴더: 크롤링으로 저장한 gpx 파일 샘플
+- crawling.py: 크롤링
+- metadata.py: gpx 파일로부터 메타데이터를 추출
+- 
