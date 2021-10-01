@@ -211,7 +211,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
  Json Body: course, title, filename, distance, moving_time_sec, total_time_sec, moving_time_str, total_time_str, avg_speed, avg_pace, location, latitude, longitude, max_height, min_height, ele_dif, total_uphill, total_downhill, difficulty, calorie ,date, gpx_url, thumbnail  
 
     
-    
+    #
     
 5) **마이페이지**  
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif" height = 500><img src="https://user-images.githubusercontent.com/75845861/135608225-6b304a26-868c-4ad6-8af9-2ea09845a1be.png" height = 500></p>  
