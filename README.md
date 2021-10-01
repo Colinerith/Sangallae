@@ -105,9 +105,9 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
 1) **홈 화면**  
 홈화면에서는 나만의 맞춤 등산로, 인기 있는 등산로, 인기 있는 산, 가까운 산 추천 목록들을 제공한다. horizontal listview로 구성되어 옆으로 넘기며 10개의 아이템을 볼 수 있고, 아이템을 클릭하면 해당 등산로 상세 페이지로 전환된다. 더보기를 누르면 vertical listview로 전체 목록을 보여준다. 위 기능을 사용하기 위해 GPS 권한이 필요하다.
 > **홈 화면 Request**  
-Request URI: /course/main
-Http Protocol: GET
-Query: latitude, longitude
+Request URI: /course/main  
+Http Protocol: GET  
+Query: latitude, longitude  
 
   
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607028-604575a9-b01a-4bee-9ba4-3af16b9465e5.png"></p>  
@@ -128,21 +128,47 @@ Query: latitude, longitude
 - 상세 페이지  
   추천 목록에서 아이템을 클릭하면 해당 등산로 상세 페이지로 전환된다. 상세 페이지에서는 썸네일과 함께 소재지, 등산 거리, 이동 시간 (해당 등산로를 기록한 유저가 실제로 이동한 시간), 소요 시간 (휴식 시간을 포함한 전체 소요 시간), 평균 속도, 평균 페이스, 최고 높이, 최소 높이, 고도차, 오르막합, 내리막합, 난이도, 기록된 날짜를 보여준다. ‘다운로드’ 버튼을 클릭하여 해당 등산로의 GPX 파일을 다운로드 할 수 있으며, ‘따라가기’ 버튼을 클릭하여 해당 등산로 경로 안내를 시작할 수 있다.
 > **맞춤 등산로 Request**  
-Request URI: /course/recommendation
-Http Protocol: GET
-Query: page
+Request URI: /course/recommendation  
+Http Protocol: GET   
+Query: page  
 > **인기 등산로 Request**  
-Request URI: /course/hot
-Http Protocol: GET
-Query: page(Int)
+Request URI: /course/hot  
+Http Protocol: GET  
+Query: page(Int)  
 > **인기 산 Request**  
-Request URI: /mountain/hot
-Http Protocol: GET
-Query: page
+Request URI: /mountain/hot  
+Http Protocol: GET  
+Query: page  
 
 
 2) **검색**  
-3) 
+<p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607406-77d5f9f1-cbd4-4f35-a4d6-56c39373c79f.png"></p>
+  
+  앱 상단의 돋보기 아이콘을 클릭하면 등산로 키워드 검색 기능을 사용할 수 있다. 등산로명, 산 이름, 지역명등 등산로에 관련된 키워드로 검색하면 해당 키워드와 관련된 등산로 목록을 서버에서 검색해 결과를 보여준다. 마찬가지로 아래로 스크롤하면 페이징 처리되어 20개씩 목록을 업데이트한다. 아이템을 클릭하면 해당 등산로 상세 페이지로 전환된다.
+> **키워드 검색 Request**  
+Request URI: /search  
+Http Protocol: GET  
+Query: keyword, page  
+
+3) **찜**  
+ 찜 화면에서는 내가 찜한 등산로 목록들을 확인할 수 있다. 아이템을 클릭하면 등산로 상세페이지로 전환되고 상세페이지에서 하트 아이콘을 클릭함으로써 찜 목록에 추가하거나 제거할 수 있다.  
+ <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607556-f3ff3990-20e2-411b-8df6-9707d493f335.png"></p>
+  
+> **찜 목록 Request**  
+Request URI: /favorite  
+Http Protocol: GET  
+Query: none  
+  
+> **찜 목록 추가 / 제거 Request**  
+Request URI: /favorite  
+Http Protocol: POST  
+Json Body: course_id  
+   
+> **등산로 상세 페이지 Request**  
+Request URI: /course/{id}  
+Http Protocol: GET  
+Path: course id  
+
 
 ## 설계
 ## 파일 설명
