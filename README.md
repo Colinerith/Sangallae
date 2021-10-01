@@ -199,13 +199,14 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   메타데이터와 함께 데이터베이스의 Record 테이블에 추가한다. 위 기능을 사용하기 위해 로컬 저장소에 쓰기 권한이 필요하다.  
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608063-07ec4185-204d-4d3b-9ac8-2f21ed38b695.png"></p>  
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608091-31f29591-75c0-463f-83d3-ac475159fe20.png"></p>   
- - 메타데이터 저장  
-  측정이 종료되면 등산 측정 시 기록한 메타데이터와 S3 접근 링크를 데이터베이스의 Record 테이블에 저장한다.
-  메타데이터: 총 거리, 총 측정 시간, 걸은 시간, 최고/최저 고도, 고도차, 위도, 경도, 오르막합, 내리막합, 평균 속도, 평균 페이스, 칼로리, gpx 저장 경로, 측정 일시
- - 등산 기록 저장 Request  
-  Request URI: /favorite  
-  Http Protocol: POST  
-  Json Body: course, title, filename, distance, moving_time_sec, total_time_sec, moving_time_str, total_time_str, avg_speed, avg_pace, location, latitude, longitude, max_height, min_height, ele_dif, total_uphill, total_downhill, difficulty, calorie ,date, gpx_url, thumbnail  
+    
+- 메타데이터 저장    
+ 측정이 종료되면 등산 측정 시 기록한 메타데이터와 S3 접근 링크를 데이터베이스의 Record 테이블에 저장한다.  
+ 메타데이터: 총 거리, 총 측정 시간, 걸은 시간, 최고/최저 고도, 고도차, 위도, 경도, 오르막합, 내리막합, 평균 속도, 평균 페이스, 칼로리, gpx 저장 경로, 측정 일시  
+- 등산 기록 저장 Request  
+ Request URI: /favorite  
+ Http Protocol: POST  
+ Json Body: course, title, filename, distance, moving_time_sec, total_time_sec, moving_time_str, total_time_str, avg_speed, avg_pace, location, latitude, longitude, max_height, min_height, ele_dif, total_uphill, total_downhill, difficulty, calorie ,date, gpx_url, thumbnail  
 
     
     
