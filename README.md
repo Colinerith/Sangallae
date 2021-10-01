@@ -1,8 +1,8 @@
-# <img src="https://user-images.githubusercontent.com/75845861/135643497-755b193f-117c-4187-9cc3-e3a597d6bd24.png" width = 50> 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
+# <img src="https://user-images.githubusercontent.com/75845861/135643497-755b193f-117c-4187-9cc3-e3a597d6bd24.png" width = 40> 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
 
 
 
-<img src="https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642455-4e3b991e-af49-438a-b56f-6501be9fcb11.gif" width = 180>
+<img src="https://user-images.githubusercontent.com/75845861/135642455-4e3b991e-af49-438a-b56f-6501be9fcb11.gif" width = 180>
 <img src="https://user-images.githubusercontent.com/75845861/135642473-43ac9aec-c98c-4715-87b8-5f27c91d987c.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642502-8036469b-3fd1-4870-b0da-c6e2942de916.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642516-84da8c2e-bb05-42ef-b228-0dcd05012be2.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642525-5a455329-024f-44f3-984e-4ca120882b7b.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif" width = 180>
 
 ## 개요
@@ -109,13 +109,14 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
 
 ### 3. 화면 리스트
 1) **홈 화면**  
+
   홈화면에서는 나만의 맞춤 등산로, 인기 있는 등산로, 인기 있는 산, 가까운 산 추천 목록들을 제공한다. horizontal listview로 구성되어 옆으로 넘기며 10개의 아이템을 볼 수 있고, 아이템을 클릭하면 해당 등산로 상세 페이지로 전환된다. 더보기를 누르면 vertical listview로 전체 목록을 보여준다. 위 기능을 사용하기 위해 GPS 권한이 필요하다.
   - **홈 화면 Request**  
   Request URI: /course/main  
   Http Protocol: GET  
   Query: latitude, longitude  
 
-  
+  <img src="https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif" width = 180>
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607028-604575a9-b01a-4bee-9ba4-3af16b9465e5.png"></p>  
 
   - 맞춤 등산로  
