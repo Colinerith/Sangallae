@@ -1,9 +1,9 @@
-# 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
-![logo](https://user-images.githubusercontent.com/75845861/135643497-755b193f-117c-4187-9cc3-e3a597d6bd24.png)
+# ![logo](https://user-images.githubusercontent.com/75845861/135643497-755b193f-117c-4187-9cc3-e3a597d6bd24.png width=20) 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
 
 
-<img src="https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642455-4e3b991e-af49-438a-b56f-6501be9fcb11.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642473-43ac9aec-c98c-4715-87b8-5f27c91d987c.gif" width = 180>
-<img src="https://user-images.githubusercontent.com/75845861/135642502-8036469b-3fd1-4870-b0da-c6e2942de916.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642516-84da8c2e-bb05-42ef-b228-0dcd05012be2.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642525-5a455329-024f-44f3-984e-4ca120882b7b.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif" width = 180>
+
+<img src="https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642455-4e3b991e-af49-438a-b56f-6501be9fcb11.gif" width = 180>
+<img src="https://user-images.githubusercontent.com/75845861/135642473-43ac9aec-c98c-4715-87b8-5f27c91d987c.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642502-8036469b-3fd1-4870-b0da-c6e2942de916.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642516-84da8c2e-bb05-42ef-b228-0dcd05012be2.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642525-5a455329-024f-44f3-984e-4ca120882b7b.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif" width = 180>
 
 ## 개요
  ### 1. 주제 선정 배경  
