@@ -199,12 +199,12 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
 
  - 측정 정보 표시  
   일시정지 상태가 아닐 때 3초에 한 번씩 위도, 경도, 고도, 현재 시간 데이터를 리스트에 추가하고, 추가된 점들 사이의 거리차를 계산해 이동한 거리, 남은 거리와 측정 시간, 걸은 시간, 현재 고도, 예상 도착 시간을 화면에 표시한다.  
-  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607969-f8cce9fb-f3d0-4c91-81c7-7ac382dd7a04.png" height = 500></p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607969-f8cce9fb-f3d0-4c91-81c7-7ac382dd7a04.png"></p>
 
  - GPX 파일 저장  
   등산 측정이 종료되면 리스트에 포함된 데이터들을 GPX 파일로 생성한 뒤, 휴대폰의 로컬 저장소와 S3 스토리지에 저장한다. S3에 저장이 완료되면 GPX 파일의 접근 링크를
   메타데이터와 함께 데이터베이스의 Record 테이블에 추가한다. 위 기능을 사용하기 위해 로컬 저장소에 쓰기 권한이 필요하다.  
-  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608063-07ec4185-204d-4d3b-9ac8-2f21ed38b695.png" height = 500><img src="https://user-images.githubusercontent.com/75845861/135608091-31f29591-75c0-463f-83d3-ac475159fe20.png"></p>   
+  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608063-07ec4185-204d-4d3b-9ac8-2f21ed38b695.png"><img src="https://user-images.githubusercontent.com/75845861/135608091-31f29591-75c0-463f-83d3-ac475159fe20.png"></p>   
     
 - 메타데이터 저장    
  측정이 종료되면 등산 측정 시 기록한 메타데이터와 S3 접근 링크를 데이터베이스의 Record 테이블에 저장한다.  
