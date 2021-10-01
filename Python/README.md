@@ -2,3 +2,4 @@
 - crawling.py: 에브리트레일 사이트러부터 gpx 파일 크롤링
 - metadata.py: gpx 파일로부터 메타데이터를 추출
 - recommendation.py: 
+- similarity comparison.ipynb: 추출된 메타데이터 표본들로부터 유사도 비교
