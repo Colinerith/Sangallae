@@ -1,9 +1,6 @@
 # <img src="https://user-images.githubusercontent.com/75845861/135643497-755b193f-117c-4187-9cc3-e3a597d6bd24.png" width = 40> 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
 
 
-
-<img src="https://user-images.githubusercontent.com/75845861/135642516-84da8c2e-bb05-42ef-b228-0dcd05012be2.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642525-5a455329-024f-44f3-984e-4ca120882b7b.gif" width = 180><img src="https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif" width = 180>
-
 ## 개요
  ### 1. 주제 선정 배경  
  COVID-19로 인해 실내 운동이 제한됨에 따라 도심과 인접한 산을 찾는 등산객들의 수가 증가하고 있다. 초보 등산객들의 경우, 길을 잘못 들거나 등산로의 난이도를 잘 모르고 가벼운 차림으로 등산을 하다가 사고가 발생하는 경우가 많다. 또한 자신에게 맞는 수준의 등산로 정보를 구하기가 어렵다. 본 프로그램은 유저들에게 맞춤형으로 등산로를 추천하고 본인의 등산 데이터를 관리할 수 있는 서비스를 제공해주는 어플리케이션을 개발해 보다 더 안전하고 즐겁게 등산을 즐길 수 있도록 주제를 선정했다.
@@ -171,7 +168,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
     
 3) **찜**  
    찜 화면에서는 내가 찜한 등산로 목록들을 확인할 수 있다. 아이템을 클릭하면 등산로 상세페이지로 전환되고 상세페이지에서 하트 아이콘을 클릭함으로써 찜 목록에 추가하거나 제거할 수 있다.  
-   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607556-f3ff3990-20e2-411b-8df6-9707d493f335.png"></p>
+   <img src="https://user-images.githubusercontent.com/75845861/135642516-84da8c2e-bb05-42ef-b228-0dcd05012be2.gif" width = 180><p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607556-f3ff3990-20e2-411b-8df6-9707d493f335.png"></p>
 
   - **찜 목록 Request**  
   Request URI: /favorite  
@@ -191,7 +188,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   
   
 4) **지도**  
-  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607776-04b192c7-34bc-4c1d-9360-3a1593b970f3.png"></p>
+  <img src="https://user-images.githubusercontent.com/75845861/135642525-5a455329-024f-44f3-984e-4ca120882b7b.gif" width = 180><p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607776-04b192c7-34bc-4c1d-9360-3a1593b970f3.png"></p>
 
 
  - GPX 파일 다운로드  
@@ -222,7 +219,7 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
     
     
 5) **마이페이지**  
-  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608225-6b304a26-868c-4ad6-8af9-2ea09845a1be.png"></p>  
+  <img src="https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif" width = 180><p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608225-6b304a26-868c-4ad6-8af9-2ea09845a1be.png"></p>  
     
 - 프로필 설정    
  연필 아이콘을 클릭하면 유저가 직접 닉네임, 키 몸무게를 변경할 수 있다. 확인 버튼을 누르면 textview의 내용이 서버로 전달되어 데이터베이스의 user 테이블에 저장된 유저의 닉네임, 키, 몸무게를 업데이트한다. 키, 몸무게는 등산 측정 시 소모한 칼로리 계산에 이용된다.  
