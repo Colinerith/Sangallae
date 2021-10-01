@@ -65,6 +65,7 @@ GPX 데이터간 유사도를 비교하기 위해 코사인 유사도와 유클�
 <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135604960-9a14df48-16e9-4e02-bdb7-78f8b1cd89be.png"></p>  
 속도, 고도, 거리의 범위가 다르기 때문에, 유사도 계산 전에 스케일링, 정규화 과정을 거쳤다. 코사인 유사도는 Standard Scaling, Min Max Scaling, Max Abs Scaling, Robust Scaling 총 4가지 기법을 적용했으며, 유클리드 유사도는 L1 정규화를 적용했다. 각 스케일링 및 정규화의 특징은 다음과 같다.  
 <div align="center">
+ |------|---|
 |Standard Scaling |기본 스케일. 평균을 0으로 표준편차를 1로 변환|
 |Min Max Scaling|최대 / 최소값이 각각 1, 0이 되도록 스케일링|
 |Max Abs Scaling|최대 절대값이 1이 되도록 스케일링|
