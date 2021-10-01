@@ -143,7 +143,7 @@ Request URI: /mountain/hot
 Http Protocol: GET  
 Query: page  
 
-
+  
 2) **검색**  
 <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607406-77d5f9f1-cbd4-4f35-a4d6-56c39373c79f.png"></p>
   
@@ -153,6 +153,7 @@ Request URI: /search
 Http Protocol: GET  
 Query: keyword, page  
 
+  
 3) **찜**  
  찜 화면에서는 내가 찜한 등산로 목록들을 확인할 수 있다. 아이템을 클릭하면 등산로 상세페이지로 전환되고 상세페이지에서 하트 아이콘을 클릭함으로써 찜 목록에 추가하거나 제거할 수 있다.  
  <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607556-f3ff3990-20e2-411b-8df6-9707d493f335.png"></p>
@@ -172,6 +173,7 @@ Request URI: /course/{id}
 Http Protocol: GET  
 Path: course id  
 
+  
 4) **지도**  
 <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607776-04b192c7-34bc-4c1d-9360-3a1593b970f3.png"></p>
   
@@ -199,6 +201,7 @@ Request URI: /favorite
 Http Protocol: POST  
 Json Body: course, title, filename, distance, moving_time_sec, total_time_sec, moving_time_str, total_time_str, avg_speed, avg_pace, location, latitude, longitude, max_height, min_height, ele_dif, total_uphill, total_downhill, difficulty, calorie ,date, gpx_url, thumbnail  
 
+  
 5) **마이페이지**  
 <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608225-6b304a26-868c-4ad6-8af9-2ea09845a1be.png"></p>  
 - 프로필 설정  
