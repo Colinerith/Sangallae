@@ -1,5 +1,5 @@
 - sample gpx 폴더: 크롤링으로 저장한 gpx 파일 샘플
 - crawling.py: 에브리트레일 사이트러부터 gpx 파일 크롤링
 - metadata.py: gpx 파일로부터 메타데이터를 추출
-- recommendation.py: DB 테이블 조회, 스케일링, 유사도 계산 및 테이블 업데이트
+- recommendation.py: DB 테이블 조회, 스케일링, 유사도 계산으로 유사 등산로 목록 추출 및 테이블 업데이트
 - similarity comparison.ipynb: 추출된 메타데이터 표본들로부터 유사도 비교
