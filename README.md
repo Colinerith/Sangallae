@@ -1,12 +1,11 @@
 # 산갈래 : 등산 측정 및 등산로 추천 어플리케이션
-![image](https://user-images.githubusercontent.com/75845861/135641345-96340f66-73e9-4bcf-b9f3-0f8c4b753416.gif)
-![image](https://user-images.githubusercontent.com/75845861/135641380-bcffb754-e0f4-4870-beb9-ab1c73697808.png)
-![image](https://user-images.githubusercontent.com/75845861/135641390-53c44bbb-54dc-4c71-a432-baae90885e38.png)
-![image](https://user-images.githubusercontent.com/75845861/135641452-8f1366a7-fcec-4366-bd47-018e76dc91e2.png)
-![image](https://user-images.githubusercontent.com/75845861/135641417-d888517b-fc91-43cf-bccf-74a875bdbe02.png)
-![image](https://user-images.githubusercontent.com/75845861/135641400-d438e0f0-209a-4f6f-ba32-bdbba9c50069.png)
-![image](https://user-images.githubusercontent.com/75845861/135641466-6a02cffe-d9ac-4ef5-9aea-2cbb5c121745.png)
-
+https://user-images.githubusercontent.com/75845861/135642387-b356234e-7b88-4779-8d23-a82caa087ab5.gif
+![KakaoTalk_20211001_235310121_01](https://user-images.githubusercontent.com/75845861/135642455-4e3b991e-af49-438a-b56f-6501be9fcb11.gif)
+![KakaoTalk_20211001_235310121_02](https://user-images.githubusercontent.com/75845861/135642473-43ac9aec-c98c-4715-87b8-5f27c91d987c.gif)
+![KakaoTalk_20211001_235310121_06](https://user-images.githubusercontent.com/75845861/135642502-8036469b-3fd1-4870-b0da-c6e2942de916.gif)
+![KakaoTalk_20211001_235310121_05](https://user-images.githubusercontent.com/75845861/135642516-84da8c2e-bb05-42ef-b228-0dcd05012be2.gif)
+![KakaoTalk_20211001_235310121_04](https://user-images.githubusercontent.com/75845861/135642525-5a455329-024f-44f3-984e-4ca120882b7b.gif)
+![KakaoTalk_20211001_235310121_03](https://user-images.githubusercontent.com/75845861/135642533-35519de4-c3e6-46ce-b633-fec7175c2c86.gif)
 
 ## 개요
  ### 1. 주제 선정 배경  
