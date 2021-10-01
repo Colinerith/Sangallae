@@ -146,10 +146,11 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   
   
   
-2) **검색**  
+2) **검색**   
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607406-77d5f9f1-cbd4-4f35-a4d6-56c39373c79f.png"></p>
 
-    앱 상단의 돋보기 아이콘을 클릭하면 등산로 키워드 검색 기능을 사용할 수 있다. 등산로명, 산 이름, 지역명등 등산로에 관련된 키워드로 검색하면 해당 키워드와 관련된 등산로 목록을 서버에서 검색해 결과를 보여준다. 마찬가지로 아래로 스크롤하면 페이징 처리되어 20개씩 목록을 업데이트한다. 아이템을 클릭하면 해당 등산로 상세 페이지로 전환된다.
+ 앱 상단의 돋보기 아이콘을 클릭하면 등산로 키워드 검색 기능을 사용할 수 있다. 등산로명, 산 이름, 지역명등 등산로에 관련된 키워드로 검색하면 해당 키워드와 관련된 등산로 목록을 서버에서 검색해 결과를 보여준다. 마찬가지로 아래로 스크롤하면 페이징 처리되어 20개씩 목록을 업데이트한다. 아이템을 클릭하면 해당 등산로 상세 페이지로 전환된다.
+   
   - **키워드 검색 Request**  
   Request URI: /search  
   Http Protocol: GET  
@@ -183,25 +184,25 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607776-04b192c7-34bc-4c1d-9360-3a1593b970f3.png"></p>
 
 
-  - GPX 파일 다운로드  
+ - GPX 파일 다운로드  
   등산로 상세 페이지에서 다운로드 버튼을 누르면 해당 등산로 GPX 파일이 S3 서버 스토리지에서 로컬 저장소에 다운로드된다. 따라서 gpx를 다운로드 할 때에는 API 서버에 http request를 전송하지 않고 직접 S3에서 다운로드 한다. 위 기능을 사용하기 위해 로컬 저장소에 쓰기 권한이 반드시 필요하다.
   - 따라갈 등산로 표시  
   상세 페이지에서 ‘따라가기’ 버튼을 누르면 해당 등산로 GPX 파일을 S3 Storage에서 로컬 저장소에 다운로드하고, 경로를 지도 화면에 그려 빨간색 선으로 표시한다. 위 기능을 사용하기 위해 로컬 저장소에 접근 권한이 필요하다.  
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607902-fb84b6e1-9b8d-43fc-8241-07dfa4ae43a1.png"></p>
 
-  - 측정 정보 표시  
+ - 측정 정보 표시  
   일시정지 상태가 아닐 때 3초에 한 번씩 위도, 경도, 고도, 현재 시간 데이터를 리스트에 추가하고, 추가된 점들 사이의 거리차를 계산해 이동한 거리, 남은 거리와 측정 시간, 걸은 시간, 현재 고도, 예상 도착 시간을 화면에 표시한다.  
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135607969-f8cce9fb-f3d0-4c91-81c7-7ac382dd7a04.png"></p>
 
-  - GPX 파일 저장  
+ - GPX 파일 저장  
   등산 측정이 종료되면 리스트에 포함된 데이터들을 GPX 파일로 생성한 뒤, 휴대폰의 로컬 저장소와 S3 스토리지에 저장한다. S3에 저장이 완료되면 GPX 파일의 접근 링크를
   메타데이터와 함께 데이터베이스의 Record 테이블에 추가한다. 위 기능을 사용하기 위해 로컬 저장소에 쓰기 권한이 필요하다.  
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608063-07ec4185-204d-4d3b-9ac8-2f21ed38b695.png"></p>  
   <p align="center"><img src="https://user-images.githubusercontent.com/75845861/135608091-31f29591-75c0-463f-83d3-ac475159fe20.png"></p>   
-  - 메타데이터 저장  
+ - 메타데이터 저장  
   측정이 종료되면 등산 측정 시 기록한 메타데이터와 S3 접근 링크를 데이터베이스의 Record 테이블에 저장한다.
   메타데이터: 총 거리, 총 측정 시간, 걸은 시간, 최고/최저 고도, 고도차, 위도, 경도, 오르막합, 내리막합, 평균 속도, 평균 페이스, 칼로리, gpx 저장 경로, 측정 일시
-  - 등산 기록 저장 Request  
+ - 등산 기록 저장 Request  
   Request URI: /favorite  
   Http Protocol: POST  
   Json Body: course, title, filename, distance, moving_time_sec, total_time_sec, moving_time_str, total_time_str, avg_speed, avg_pace, location, latitude, longitude, max_height, min_height, ele_dif, total_uphill, total_downhill, difficulty, calorie ,date, gpx_url, thumbnail  
