@@ -33,9 +33,9 @@ GPX는 일정한 간격으로 위도, 경도, 고도, 측정 시각이 적힌 xm
 
 ### 2. 데이터 수집
 등산 커뮤니티 ‘에브리트레일’ (http://www.everytrail.co.kr) 에서 9060개의 GPX 파일을 크롤링했다. 언어는 Python을 사용했고, 라이브러리는 BeautifulSoup와 Selenium을 사용했다. 수집한 GPX 파일들로부터 메타데이터와 썸네일을 추출해, 썸네일과 GPX 파일은 S3 스토리지에, 메타데이터는 데이터베이스에 저장했다.   
-<div align="center">
-![image](https://user-images.githubusercontent.com/75845861/135603140-0d3e0af6-7ba1-4d47-a6a0-e9e36662e943.png)
-</div>
+
+<p align="center">![image](https://user-images.githubusercontent.com/75845861/135603140-0d3e0af6-7ba1-4d47-a6a0-e9e36662e943.png)</p>
+
 
 ### 3. 데이터 가공
 1) 메타데이터 추출
