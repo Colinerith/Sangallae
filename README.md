@@ -246,11 +246,12 @@ JPX는 GPX 파일을 읽고, 쓰고, 생성할 수 있는 Java 라이브러리�
 ## 파일 설명
 
 
-> Platform: Android
-Server Framework: SpringBoot 2.4.4
-Web server: Nginx
-WAS: Django 3.1.7
-Database: Mariadb 10.4.13
-Cloud Storage: AWS S3
-Cloud Server Hosting: AWS EC2
-Cloud Database: AWS RDS
+#
+> Platform: Android  
+Server Framework: SpringBoot 2.4.4  
+Web server: Nginx  
+WAS: Django 3.1.7  
+Database: Mariadb 10.4.13  
+Cloud Storage: AWS S3  
+Cloud Server Hosting: AWS EC2  
+Cloud Database: AWS RDS  
