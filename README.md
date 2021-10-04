@@ -74,8 +74,8 @@ GPX 데이터간 유사도를 비교하기 위해 코사인 유사도와 유클�
 |스케일링/정규화|특징|
 |------|---|
 |Standard Scaling |기본 스케일. 평균을 0으로 표준편차를 1로 변환|
-|Min Max Scaling|최대 / 최소값이 각각 1, 0이 되도록 스케일링|
-|Max Abs Scaling|최대 절대값이 1이 되도록 스케일링|
+|Min Max Scaling|최대 / 최솟값이 각각 1, 0이 되도록 스케일링|
+|Max Abs Scaling|최대 절값이 1이 되도록 스케일링|
 |Robust Scaling|중앙값과 IQR(Interquartile Range)이 각각 0, 1이 되도록 스케일링|
 |L1 정규화|두 개의 벡터를 빼고 절댓값을 취한뒤 합함|
  
